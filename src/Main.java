@@ -13,7 +13,7 @@ public class Main {
         dataInterface.addRest("Pho");
         dataInterface.addRest("Fang Ma");
         dataInterface.addRest("Gao Shi Lin");
-        dataInterface.addRest("Indian", 5);
+        dataInterface.addRest("Indian Restaurant", 5);
 
         Rest res = dataInterface.dataBase.get(0);
         res.addWeight(10);
